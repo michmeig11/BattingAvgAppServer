@@ -1,25 +1,29 @@
 {
   "name": "battingavgapp",
   "version": "1.0.0",
-  "description": "calculate your batting avg",
+  "description": "calculate batting average",
   "main": "app.js",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "node.js": "^0.0.1-security",
     "nodemon": "^2.0.4",
     "pg": "^8.2.1",
-    "pg-hstore": "^2.3.3",
-    "scripts": "^0.1.0",
-    "sequelize": "^5.21.12",
-    "start": "^5.1.0"
+    "sequelize": "^5.21.12"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michmeig11/BattingAvgAppServer.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michmeig11/BattingAvgAppServer/issues"
+  },
+  "homepage": "https://github.com/michmeig11/BattingAvgAppServer#readme"
 }

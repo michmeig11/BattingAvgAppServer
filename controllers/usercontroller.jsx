@@ -51,7 +51,7 @@ router.post('/login', (req, res) =>{
                 res.status(500).send ({error: 'failed to authenticate'}) 
             }
         }, err => res.status(501).send({error: 'failed to process'})) 
-})
+});
 
 
 module.exports = router;
