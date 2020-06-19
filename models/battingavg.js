@@ -1,7 +1,7 @@
 module.exports =(sequelize, DataTypes) => {
     const BattingAvg = sequelize.define ('bat', {
         nameOfBallPark: {
-            type: DataTypes.String,
+            type: DataTypes.STRING,
             allowNull: false
         },
         date: {
@@ -25,7 +25,7 @@ module.exports =(sequelize, DataTypes) => {
             allowNull: false
         },
         battingAvg: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false
         }
     })

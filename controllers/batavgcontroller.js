@@ -56,6 +56,7 @@ router.put('/:id', (req, res) => {
         where: {
             id: req.params.id
         }
+    })
         .then(bat => res.status(200).json({
             bat: bat
         }))
@@ -63,7 +64,7 @@ router.put('/:id', (req, res) => {
             error: err
         }))
     })
-})
+
 
 
 router.delete('/:id', (req,res) => {
